@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 
 <html>
+    <!-- HEADER -->
     <head>
         <title>Portfolio for Gugil Co.</title>
+        <!-- refers to style.css within the folder -->
         <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <!-- Adds a logo in the middle -->
+        <img src = "./Santos_pic.jpg" class="feat" style="width: 7%;"> 
         <h1 style="text-align: center;">Logo and Navigation Bar</h1>
         <hr/>
     </head>
 
+    <!-- BODY -->
     <body>
+        <!-- flex container for the feature photo -->
         <div class="flex-container">
             <div class = "flex-item" style="align-items: center;">
                 <h2 style="text-align: center;">Feature Photo</h2>
-                <img src = "./Santos_pic.jpg" class = "feat">
+                <img src = "./Santos_pic.jpg" class="feat" style="width: 35%;">
             </div>
         </div>
-        <h2>Previous Projects</h2>
+        <h1 style="text-align: center;">Previous Projects</h1>
+        <!-- flex container for previous projects -->
         <div class="flex-container">
             <div class = "flex-item">
                 <h4>Connect 4</h4>
@@ -30,11 +37,12 @@
                 <p>The biggest project I've worked on is a student accomodation application wherein students are able to check dorms or apartments in the vicinity of the campus. I worked on the backend of this project.</p>
             </div>
             <div class = "flex-item">
-                <h4>Title 4</h4>
-                <p>This is the description of this title</p>
+                <h4>Doctor, I think I have AIDS</h4>
+                <p>This is a C# game I created in highschool with a partner. It's a basic point and click scenario that uses nested conditional statements to provide different paths a user could take.</p>
             </div>
         </div>
         <br/>
+        <!-- flex container for skill and autobio -->
         <div class="flex-container">
             <div class="flex-item">
                 <h2>Skills</h2>
@@ -42,7 +50,7 @@
                 <p> - knowledgable in C, Java, and Python<br>
                     - familiar with basic data structures<br>
                     - can tinker around Linux OS<br>
-                    - has backend experience<br><br>
+                    - has backend experience<br>
                 </p>
 
                 <h4>Soft Skills</h4>    
@@ -55,11 +63,22 @@
             </div>
             <div class="flex-item">
                 <h2>Autobiography</h2>
-                <p>description of skills</p>
+                <p style="text-align: center;">I was born in July 10, 2001 as the first child of my Mom and Dad and I would turn out to be the last as well. I grew up in a stereotypical middle class family <br>where a holiday in Boracay or Hong Kong for a family of three was all that we could afford though it's certainly enough. 
+                    I spent most of my <br>schooldays in the Ateneo de Manila University where I studied for the better part of 12 years. College was a big decision for me because I decided to be <br>reconsidered into UP Cebu after having reserved a slot in Ateneo.
+                    This was my first time away from my family and alone for an extended period of time let <br>alone be in a pandemic, trapped alone for the first time. Alas, I find myself in UPLB studying Computer Science and having a great time.
+                </p>
             </div>
         </div>
     </body>
+    <!-- FOOTER -->
     <footer>
         <hr/>
+        <!-- flex container for footer -->
+        <div class="flex-container"> 
+            <img src = "./Santos_pic.jpg" style="width: 7%;">
+            <div>Santos, Jose Gabriel F.<br>
+                2019-55087
+            </div>
+        </div>
     </footer>
 </html>
